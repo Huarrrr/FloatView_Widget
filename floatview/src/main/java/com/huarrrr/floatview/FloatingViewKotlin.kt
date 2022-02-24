@@ -1,4 +1,4 @@
-package com.huarrrr.floatview_widget
+package com.huarrrr.floatview
 
 import android.annotation.SuppressLint
 import androidx.appcompat.widget.LinearLayoutCompat

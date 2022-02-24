@@ -4,18 +4,14 @@ plugins {
     id 'maven-publish'
 }
 
+group = 'com.github.Huarrrr'
+version = '1.0'
+
 afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.huarrrr.FloatViewLib'
-                artifactId = 'huarrrr'
-                version = '1.0.0'
-            }
-
-            debug(MavenPublication){
-                from components.debug
                 groupId = 'com.huarrrr.FloatViewLib'
                 artifactId = 'huarrrr'
                 version = '1.0.0'
